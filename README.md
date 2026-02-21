@@ -5,7 +5,9 @@ This project explores the `var` keyword introduced in Java 10. While it allows t
 
 ## 📋 Requirements Compliance
 - **Task**: Declare a greeting message using the `var` keyword.
-- **Variable**: `var message = "Hi, Java!"`.
+- **Variable**: `var message = "Greeting: Hi, Java "`.
+- **Variable**: `var plus = "+";`.
+- **Variable**: `var str = "11";`.
 - **Goal**: Understand the syntax and the trade-offs of implicit typing.
 
 ## 🚀 Architectural Stack
