@@ -5,7 +5,7 @@ This project explores the `var` keyword introduced in Java 10. While it allows t
 
 ## 📋 Requirements Compliance
 - **Task**: Declare a greeting message using the `var` keyword.
-- **Variable**: `var message = "Привет, Java!"`.
+- **Variable**: `var message = "Hi, Java!"`.
 - **Goal**: Understand the syntax and the trade-offs of implicit typing.
 
 ## 🚀 Architectural Stack
@@ -22,7 +22,7 @@ While `var` reduces boilerplate code for the author, it introduces several risks
 
 ## 📋 Expected result
 ```text
-Greeting: Привет, Java!
+Greeting: Hi, Java!
 ```
 
 ## 💻 Code Example
@@ -43,7 +43,7 @@ public class Solution {
     public static void main(String[] args) {
         // Using var for implicit type inference
         var plus = "+";
-        var message = "Greeting: Привет, Java ";
+        var message = "Greeting: Hi, Java ";
 
         // The author wanted to enter the number 11 as a number for possible further calculations,
         // but made a mistake by putting double quotes.

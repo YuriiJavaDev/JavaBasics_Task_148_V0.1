@@ -7,7 +7,7 @@ public class Solution {
     public static void main(String[] args) {
         // Using var for implicit type inference
         var plus = "+";
-        var message = "Greeting: Привет, Java ";
+        var message = "Greeting: Hi, Java ";
 
         // The author wanted to enter the number 11 as a number for possible further calculations,
         // but made a mistake by putting double quotes.
